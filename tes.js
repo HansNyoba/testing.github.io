@@ -24,7 +24,7 @@ window.onload = function() {
         isi.push(lastElement);
       });
   
-      i = Math.floor(Math.random() * 4);
+      i = Math.floor(Math.random() * kitab.length);
   
       // Menampilkan hasilnya di HTML
       displayBook(kitab, ayat);
